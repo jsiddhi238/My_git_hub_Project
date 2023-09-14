@@ -56,7 +56,7 @@ int main()
 	cout<<endl;
 	
 	complex comp5;
-	comp5.real = comp1.real*comp2.real + comp1.imag*comp2.imag;
+	comp5.real = comp1.real*comp2.real - comp1.imag*comp2.imag;
 	comp5.imag = comp1.imag*comp2.real + comp1.real*comp2.imag;
 	comp5.print_product();
 	cout<<endl;
